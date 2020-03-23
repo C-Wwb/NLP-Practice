@@ -1,0 +1,9 @@
+pip install pyhanlp之前关掉pycharm！！！
+
+Alt F12 Pycharm调出控制台
+
+python -m pip install -U --force-reinstall pip
+
+下载 https://file.hankcs.com/hanlp/data-for-1.7.zip 到 y:\nlp\anaconda\install\lib\site-packages\pyhanlp\static\data-for-1.7.7.zip
+
+返回cmd主界面 ctrl z + Enter
