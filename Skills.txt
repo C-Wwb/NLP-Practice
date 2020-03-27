@@ -1,9 +1,19 @@
-pip install pyhanlp之前关掉pycharm！！！
+1）pip install pyhanlp之前关掉pycharm！！！
 
-Alt F12 Pycharm调出控制台
+2）Alt F12 Pycharm调出控制台
 
-python -m pip install -U --force-reinstall pip
+3）python -m pip install -U --force-reinstall pip
 
-下载 https://file.hankcs.com/hanlp/data-for-1.7.zip 到 y:\nlp\anaconda\install\lib\site-packages\pyhanlp\static\data-for-1.7.7.zip
+4）下载 https://file.hankcs.com/hanlp/data-for-1.7.zip 到 y:\nlp\anaconda\install\lib\site-packages\pyhanlp\static\data-for-1.7.7.zip
 
-返回cmd主界面 ctrl z + Enter
+5）返回cmd主界面 ctrl z + Enter
+
+6）hanlp的路径
+Y:\NLP\Anaconda\Install\Lib\site-packages\pyhanlp\static
+
+7）idea调用hanlp包
+File -> Project Structure -> Modules -> +->JARS->hanlp-1.7.7.jar
+然后把hanlp.properties放到 项目名\out\production\项目名 下
+
+8)pycharm调用hanlp包
+File -> Settings ->Project->Project Interpreter
