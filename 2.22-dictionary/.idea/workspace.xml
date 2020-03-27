@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="692f16c0-6ef1-4fed-a836-4fb061984d45" name="Default Changelist" comment="" />
+    <list default="true" id="8095a77a-9586-47e0-b2e7-4485e5fdd7f6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1ZhdITu3QGpdPFzqqvHcnNlyVFD" />
+  <component name="ProjectId" id="1ZiPktUAsSP0SP1y3hbVaI0oI8u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,11 +27,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Anaconda/Install/Lib/site-packages/pyhanlp" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="text" />
+      <module name="2.22-dictionary" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -63,12 +64,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="692f16c0-6ef1-4fed-a836-4fb061984d45" name="Default Changelist" comment="" />
-      <created>1585295179810</created>
+      <changelist id="8095a77a-9586-47e0-b2e7-4485e5fdd7f6" name="Default Changelist" comment="" />
+      <created>1585319088198</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585295179810</updated>
-      <workItem from="1585295181192" duration="157000" />
+      <updated>1585319088198</updated>
+      <workItem from="1585319090578" duration="1019000" />
     </task>
     <servers />
   </component>
@@ -76,28 +77,36 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1417" height="208" key="GridCell.Tab.0.bottom" timestamp="1585295338191">
+    <state x="374" y="142" key="FileChooserDialogImpl" timestamp="1585319668049">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1417" height="208" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1585295338191" />
-    <state width="1417" height="208" key="GridCell.Tab.0.center" timestamp="1585295338191">
+    <state x="374" y="142" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1585319668049" />
+    <state width="1417" height="208" key="GridCell.Tab.0.bottom" timestamp="1585320109830">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1417" height="208" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1585295338191" />
-    <state width="1417" height="208" key="GridCell.Tab.0.left" timestamp="1585295338191">
+    <state width="1417" height="208" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1585320109830" />
+    <state width="1417" height="208" key="GridCell.Tab.0.center" timestamp="1585320109830">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1417" height="208" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1585295338191" />
-    <state width="1417" height="208" key="GridCell.Tab.0.right" timestamp="1585295338191">
+    <state width="1417" height="208" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1585320109830" />
+    <state width="1417" height="208" key="GridCell.Tab.0.left" timestamp="1585320109830">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1417" height="208" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1585295338191" />
-    <state x="-13" y="0" key="SettingsEditor" timestamp="1585295335043">
+    <state width="1417" height="208" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1585320109830" />
+    <state width="1417" height="208" key="GridCell.Tab.0.right" timestamp="1585320109830">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="-13" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1585295335043" />
+    <state width="1417" height="208" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1585320109830" />
+    <state x="27" y="0" key="SettingsEditor" timestamp="1585319717327">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="27" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1585319717327" />
+    <state x="0" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1585319133828">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="0" y="218" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1585319133828" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/text$Main.coverage" NAME="Main Coverage Results" MODIFIED="1585295229469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2_22_dictionary$Main.coverage" NAME="Main Coverage Results" MODIFIED="1585320000853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
