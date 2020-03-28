@@ -17,3 +17,7 @@ File -> Project Structure -> Modules -> +->JARS->hanlp-1.7.7.jar
 
 8)pycharm调用hanlp包
 File -> Settings ->Project->Project Interpreter
+
+9）python分号用：代替
+     list[]//定义数组
+     
