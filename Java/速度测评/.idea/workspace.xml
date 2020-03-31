@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1b8ca21-e24a-4d34-959d-bd8f1145c5bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../2.3.5-速度测评/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.3.5-速度测评/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.3.5-速度测评/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.3.5-速度测评/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.3.5-速度测评/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.3.5-速度测评/src/segmentBackwardLongest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.3.5-速度测评/src/segmentForwardLongest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.3.5-速度测评/src/text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.3.5-速度测评/速度测评.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="Y:\NLP\Hanlp\Java\速度测评\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZtgFl2RX1sfPxLbiW7s1XbV9GE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.3.5-速度测评" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1b8ca21-e24a-4d34-959d-bd8f1145c5bd" name="Default Changelist" comment="" />
+      <created>1585663702739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585663702739</updated>
+      <workItem from="1585663706792" duration="158000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="468" y="127" key="FileChooserDialogImpl" timestamp="1585663866542">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="468" y="127" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1585663866542" />
+    <state x="90" y="0" key="SettingsEditor" timestamp="1585663753045">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="90" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1585663753045" />
+  </component>
+</project>
