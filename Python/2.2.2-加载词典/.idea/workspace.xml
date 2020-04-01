@@ -73,6 +73,7 @@
       <workItem from="1585403494870" duration="50000" />
       <workItem from="1585404221828" duration="1027000" />
       <workItem from="1585407355663" duration="381000" />
+      <workItem from="1585752419210" duration="52000" />
     </task>
     <servers />
   </component>
@@ -104,10 +105,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="27" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1585319717327" />
-    <state x="0" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1585403499667">
+    <state x="0" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1585752420756">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="0" y="218" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1585403499667" />
+    <state x="0" y="218" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1585752420756" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2_22_dictionary$Main.coverage" NAME="Main Coverage Results" MODIFIED="1585404327292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
