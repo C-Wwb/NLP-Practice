@@ -10,7 +10,7 @@ public class evaluateSpeed
         long start;
         double costTime;
         final int pressure = 10000;
-
+        //1
         start = System.currentTimeMillis();
         for(int i = 0; i < pressure; ++i)
         {
@@ -19,6 +19,7 @@ public class evaluateSpeed
         costTime = (System.currentTimeMillis() - start) / (double) 1000;
         System.out.printf("正向最长匹配：%.2f万字/秒\n", text.length() * pressure / 10000 / costTime);
 
+        //2
         start = System.currentTimeMillis();
         for(int i = 0; i < pressure; ++i)
         {
@@ -27,6 +28,16 @@ public class evaluateSpeed
         costTime = (System.currentTimeMillis() - start) / (double) 1000;
         System.out.printf("逆向最长匹配：%.2f万字/秒\n", text.length() * pressure / 10000 / costTime);
 
+        //3
+        start = System.currentTimeMillis();
+        for(int i = 0; i < pressure; ++i)
+        {
+            segmentBidirectional.segmentBidirectional(text, dictionary);
+        }
+        costTime = (System.currentTimeMillis() - start) / (double) 1000;
+        System.out.printf("双向最长匹配：%.2f万字/秒\n", text.length() * pressure / 10000 / costTime);
+
+        //4
         start = System.currentTimeMillis();
         for(int i = 0; i < pressure; ++i)
         {
