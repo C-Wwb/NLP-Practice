@@ -1,4 +1,4 @@
-import com.hankcs.hanlp.collection.trie.ITrie;
+/*import com.hankcs.hanlp.collection.trie.ITrie;
 import jdk.nashorn.internal.ir.BaseNode;
 import jdk.nashorn.internal.ir.Expression;
 
@@ -15,4 +15,4 @@ public class BinTrie<V> extends BaseNode<V> implements ITrie<V>, Externalizable
         status = com.hankcs.hanlp.collection.trie.bintrie.BaseNode.Status.NOT_WORD_1;
     }
 
-}
+}*/
