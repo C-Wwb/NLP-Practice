@@ -41,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.2.2-加载词典" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -90,6 +90,7 @@
       <workItem from="1585295090271" duration="150000" />
       <workItem from="1585752779973" duration="324000" />
       <workItem from="1585753177614" duration="62000" />
+      <workItem from="1586534853084" duration="12000" />
     </task>
     <servers />
   </component>
@@ -97,10 +98,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="447" y="114" key="FileChooserDialogImpl" timestamp="1585294399580">
+    <state x="447" y="114" key="FileChooserDialogImpl" timestamp="1586534862406">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="447" y="114" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1585294399580" />
+    <state x="447" y="114" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1586534862406" />
     <state width="1417" height="209" key="GridCell.Tab.0.bottom" timestamp="1585753238752">
       <screen x="0" y="0" width="1474" height="864" />
     </state>

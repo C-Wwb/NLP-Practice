@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b0e2d0-7713-446c-8781-d41b43e62740" name="Default Changelist" comment="" />
+    <list default="true" id="93ad0783-c7fc-4907-8579-d23689c0b29e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1ZzNY18dggICnRzsYbCl6QTUw0E" />
+  <component name="ProjectId" id="1ZlAwRam4jWOUdUPHHII8h0cMWK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,12 +27,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.4.4-首字散列其余二分的字典树" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.4.2-字典树的节点实现" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Python.Text">
-    <configuration name="字典树的增删改查" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2.4.3-字典树的增删改查" />
+  <component name="RunManager" selected="Python.text">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2.3.1-完全切分" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -44,29 +44,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/字典树的增删改查.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2.4.3-字典树的增删改查" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Text.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +54,7 @@
       <method v="2" />
     </configuration>
     <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2.4.3-字典树的增删改查" />
+      <module name="2.3.1-完全切分" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -99,9 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Text" />
-        <item itemvalue="Python.字典树的增删改查" />
         <item itemvalue="Python.text" />
+        <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -110,13 +87,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="74b0e2d0-7713-446c-8781-d41b43e62740" name="Default Changelist" comment="" />
-      <created>1585838006704</created>
+      <changelist id="93ad0783-c7fc-4907-8579-d23689c0b29e" name="Default Changelist" comment="" />
+      <created>1585403544850</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585838006704</updated>
-      <workItem from="1585838007944" duration="2251000" />
-      <workItem from="1586534933179" duration="11000" />
+      <updated>1585403544850</updated>
+      <workItem from="1585403546162" duration="2043000" />
+      <workItem from="1585406340666" duration="149000" />
+      <workItem from="1585407227167" duration="169000" />
+      <workItem from="1586534881267" duration="39000" />
     </task>
     <servers />
   </component>
@@ -124,30 +103,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="468" y="133" key="FileChooserDialogImpl" timestamp="1586534942604">
+    <state x="468" y="133" key="FileChooserDialogImpl" timestamp="1586534918041">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="468" y="133" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1586534942604" />
-    <state width="1417" height="208" key="GridCell.Tab.0.bottom" timestamp="1585840260526">
+    <state x="468" y="133" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1586534918041" />
+    <state width="1402" height="206" key="GridCell.Tab.0.bottom" timestamp="1585407397012">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1417" height="208" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1585840260526" />
-    <state width="1417" height="208" key="GridCell.Tab.0.center" timestamp="1585840260526">
+    <state width="1402" height="206" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1585407397012" />
+    <state width="1402" height="206" key="GridCell.Tab.0.center" timestamp="1585407397012">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1417" height="208" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1585840260526" />
-    <state width="1417" height="208" key="GridCell.Tab.0.left" timestamp="1585840260526">
+    <state width="1402" height="206" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1585407397012" />
+    <state width="1402" height="206" key="GridCell.Tab.0.left" timestamp="1585407397012">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1417" height="208" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1585840260526" />
-    <state width="1417" height="208" key="GridCell.Tab.0.right" timestamp="1585840260526">
+    <state width="1402" height="206" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1585407397012" />
+    <state width="1402" height="206" key="GridCell.Tab.0.right" timestamp="1585407397012">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1417" height="208" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1585840260526" />
+    <state width="1402" height="206" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1585407397012" />
+    <state x="346" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1585407228550">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="346" y="218" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1585407228550" />
+    <state x="316" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1585407298046">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="316" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1585407298046" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/2_4_3_$Text.coverage" NAME="Text Coverage Results" MODIFIED="1585840131543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/2_4_3_$text.coverage" NAME="text Coverage Results" MODIFIED="1585839354058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/2_4_3_$.coverage" NAME="字典树的增删改查 Coverage Results" MODIFIED="1585839498246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2_3_1_$text.coverage" NAME="text Coverage Results" MODIFIED="1585407392040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2_3_1_$Main.coverage" NAME="Main Coverage Results" MODIFIED="1585407317529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

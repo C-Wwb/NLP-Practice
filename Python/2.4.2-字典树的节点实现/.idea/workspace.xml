@@ -27,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.4.3-字典树的增删改查" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunManager">
@@ -73,6 +73,7 @@
       <workItem from="1585837898719" duration="108000" />
       <workItem from="1585838072192" duration="603000" />
       <workItem from="1585911804848" duration="44000" />
+      <workItem from="1586534921482" duration="10000" />
     </task>
     <servers />
   </component>
@@ -80,6 +81,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="468" y="133" key="FileChooserDialogImpl" timestamp="1586534930148">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="468" y="133" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1586534930148" />
     <state width="1417" height="208" key="GridCell.Tab.0.bottom" timestamp="1585753699702">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
