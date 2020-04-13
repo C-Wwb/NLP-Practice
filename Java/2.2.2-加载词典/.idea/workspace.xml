@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8ada338-3f1e-414b-97ed-d68560119fcc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/.idea/2.22-dictionary.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/.idea/dictionaries/Wwb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/2.2.2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/Main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/out/production/2.2.2/Mian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/out/production/2.2.2/hanlp.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.2.2-加载词典/src/Mian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/2.5-双数组字典树/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/2.5-双数组字典树/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +113,8 @@
       <workItem from="1586535015636" duration="21000" />
       <workItem from="1586535168122" duration="41000" />
       <workItem from="1586618918917" duration="19000" />
+      <workItem from="1586770993924" duration="79000" />
+      <workItem from="1586790763432" duration="97000" />
     </task>
     <servers />
   </component>
@@ -135,10 +126,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="551" y="311" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1474.864@0.0.1474.864" timestamp="1586618927288" />
-    <state x="468" y="127" key="FileChooserDialogImpl" timestamp="1586697587504">
+    <state x="468" y="127" key="FileChooserDialogImpl" timestamp="1586771068306">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="468" y="127" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1586697587504" />
+    <state x="468" y="127" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1586771068306" />
     <state width="1417" height="207" key="GridCell.Tab.0.bottom" timestamp="1586535209442">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -159,13 +150,13 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1586535188111" />
-    <state x="341" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1586081761313">
+    <state x="341" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1586790812521">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="341" y="211" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1586081761313" />
-    <state x="0" y="0" key="new project wizard" timestamp="1586084247111">
+    <state x="341" y="211" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1586790812521" />
+    <state x="0" y="0" key="new project wizard" timestamp="1586771076557">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1474.864@0.0.1474.864" timestamp="1586084247111" />
+    <state x="0" y="0" key="new project wizard/0.0.1474.864@0.0.1474.864" timestamp="1586771076557" />
   </component>
 </project>
