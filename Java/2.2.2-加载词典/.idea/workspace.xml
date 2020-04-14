@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8ada338-3f1e-414b-97ed-d68560119fcc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Python/2.5-双数组字典树/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/2.5-双数组字典树/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c8ada338-3f1e-414b-97ed-d68560119fcc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +113,7 @@
       <workItem from="1586618918917" duration="19000" />
       <workItem from="1586770993924" duration="79000" />
       <workItem from="1586790763432" duration="97000" />
+      <workItem from="1586874632893" duration="60000" />
     </task>
     <servers />
   </component>
@@ -150,13 +149,13 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1586535188111" />
-    <state x="341" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1586790812521">
+    <state x="341" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1586874659989">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="341" y="211" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1586790812521" />
-    <state x="0" y="0" key="new project wizard" timestamp="1586771076557">
+    <state x="341" y="211" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1586874659989" />
+    <state x="0" y="0" key="new project wizard" timestamp="1586874688398">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1474.864@0.0.1474.864" timestamp="1586771076557" />
+    <state x="0" y="0" key="new project wizard/0.0.1474.864@0.0.1474.864" timestamp="1586874688398" />
   </component>
 </project>
