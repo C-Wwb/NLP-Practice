@@ -48,7 +48,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.Mian">
+  <component name="RunManager" selected="Unknown.Main1939615222">
     <configuration name="Mian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mian" />
       <module name="2.2.2" />
@@ -114,6 +114,7 @@
       <workItem from="1586770993924" duration="79000" />
       <workItem from="1586790763432" duration="97000" />
       <workItem from="1586874632893" duration="60000" />
+      <workItem from="1587218875126" duration="421000" />
     </task>
     <servers />
   </component>
@@ -125,6 +126,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="551" y="311" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1474.864@0.0.1474.864" timestamp="1586618927288" />
+    <state x="260" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587219171461">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="260" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1474.864@0.0.1474.864" timestamp="1587219171461" />
     <state x="468" y="127" key="FileChooserDialogImpl" timestamp="1586771068306">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -149,10 +154,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1586535188111" />
-    <state x="341" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1586874659989">
+    <state x="341" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1587218970822">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="341" y="211" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1586874659989" />
+    <state x="341" y="211" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1587218970822" />
     <state x="0" y="0" key="new project wizard" timestamp="1586874688398">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
