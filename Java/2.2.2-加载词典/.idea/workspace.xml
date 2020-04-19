@@ -48,7 +48,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Unknown.Main1939615222">
+  <component name="RunManager" selected="Application.Mian">
     <configuration name="Mian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mian" />
       <module name="2.2.2" />
@@ -115,6 +115,7 @@
       <workItem from="1586790763432" duration="97000" />
       <workItem from="1586874632893" duration="60000" />
       <workItem from="1587218875126" duration="421000" />
+      <workItem from="1587292429647" duration="179000" />
     </task>
     <servers />
   </component>
@@ -154,13 +155,13 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1586535188111" />
-    <state x="341" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1587218970822">
+    <state x="341" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1587292492459">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="341" y="211" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1587218970822" />
-    <state x="0" y="0" key="new project wizard" timestamp="1586874688398">
+    <state x="341" y="211" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1587292492459" />
+    <state x="0" y="0" key="new project wizard" timestamp="1587292607882">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1474.864@0.0.1474.864" timestamp="1586874688398" />
+    <state x="0" y="0" key="new project wizard/0.0.1474.864@0.0.1474.864" timestamp="1587292607882" />
   </component>
 </project>
