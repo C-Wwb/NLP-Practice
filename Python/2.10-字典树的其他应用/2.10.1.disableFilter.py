@@ -1,3 +1,4 @@
+from docutils.nodes import term
 from jpype import JClass
 
 
@@ -25,3 +26,6 @@ def load_from_words(*words):
     for word in words:
         map[word] = word
     return JClass('com.hancks.hanlp.collection.trie.DoubleArrayTrie')(map)
+
+def remove_stopwords_termlist(termlist, trie):
+    return [term.word for term in termlist if not trie.containsKey(term.word)]
