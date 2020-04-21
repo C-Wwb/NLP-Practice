@@ -1,7 +1,10 @@
 import com.hankcs.hanlp.collection.trie.DoubleArrayTrie;
 import com.hankcs.hanlp.corpus.io.IOUtil;
+import com.hankcs.hanlp.seg.common.Term;
 
 import java.io.IOException;
+import java.util.List;
+import java.util.ListIterator;
 import java.util.TreeMap;
 
 public class StopWordFiltering
@@ -37,5 +40,19 @@ public class StopWordFiltering
             map.put(word, word);
         }
         return new DoubleArrayTrie<String>(map);
+    }
+
+    /**
+     * 去除粉刺结果中的停用词
+     * @param termList 分词结果
+     * @param trie 停用词词典
+     */
+    public static void removeStopWords(List<Term> termList, DoubleArrayTrie<String> trie)
+    {
+
+        ListIterator<Term> listIterator = termList.listIterator();
+        while (listIterator.hasNext())
+            if(trie.containsKey(listIterator.next().word))
+                listIterator.remove();
     }
 }
