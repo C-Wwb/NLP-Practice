@@ -1,3 +1,5 @@
+import com.hankcs.hanlp.HanLP;
+import com.hankcs.hanlp.collection.AhoCorasick.AhoCorasickDoubleArrayTrie;
 import com.hankcs.hanlp.collection.trie.DoubleArrayTrie;
 import com.hankcs.hanlp.corpus.io.IOUtil;
 import com.hankcs.hanlp.seg.common.Term;
@@ -54,5 +56,31 @@ public class StopWordFiltering
         while (listIterator.hasNext())
             if(trie.containsKey(listIterator.next().word))
                 listIterator.remove();
+    }
+
+    public static String replaceStopWords(final String text, final String replacement,
+                                          DoubleArrayTrie<String> trie)
+    {
+        final StringBuilder sbOut = new StringBuilder(text.length());
+        final int[] offset = new int[]{0};
+        trie.parseLongestText(text, new AhoCorasickDoubleArrayTrie.IHit<String>()
+        {
+            @Override
+            public void hit (int begin, int end, String value)
+            {
+                if(begin > offset[0])
+                    sbOut.append(text.substring(offset[0], begin));
+                sbOut.append(replacement);
+                offset[0] = end;
+            }
+        });
+        if(offset[0] < text.length())
+            sbOut.append(text.substring(offset[0]));
+        return sbOut.toString();
+    }
+    public static void main(String[] args) throws IOException {
+        DoubleArrayTrie<String> trie = loadStopWordFromFile(HanLP.Config.CoreStopWordDictionaryPath);
+        final String text = "停用词的意义相对而言无关紧要吧";
+
     }
 }
