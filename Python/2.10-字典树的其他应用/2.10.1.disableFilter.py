@@ -1,5 +1,5 @@
 from docutils.nodes import term
-from jpype import JClass
+from jpype import JClass, JString
 
 
 def load_from_file(path):
@@ -29,3 +29,18 @@ def load_from_words(*words):
 
 def remove_stopwords_termlist(termlist, trie):
     return [term.word for term in termlist if not trie.containsKey(term.word)]
+
+def replace_stropwords_text(text, replacement, trie):
+    searcher = trie.getLongestSearcher(JString(text), 0)
+    offset = 0
+    result = ''
+    while searcher.next():
+        begin = searcher.begin
+        end = begin + searcher.length
+        if begin > offset:
+            result += text[offset: begin]
+        result += replacement
+        offset = end
+    if offset < len(text):
+        result += text[offset]
+    return result
