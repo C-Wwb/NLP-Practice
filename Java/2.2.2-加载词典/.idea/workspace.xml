@@ -40,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="Y:/SummerCourse" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -116,6 +116,7 @@
       <workItem from="1586874632893" duration="60000" />
       <workItem from="1587218875126" duration="421000" />
       <workItem from="1587292429647" duration="179000" />
+      <workItem from="1587720437889" duration="64000" />
     </task>
     <servers />
   </component>
@@ -131,10 +132,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="260" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1474.864@0.0.1474.864" timestamp="1587219171461" />
-    <state x="468" y="127" key="FileChooserDialogImpl" timestamp="1586771068306">
+    <state x="468" y="127" key="FileChooserDialogImpl" timestamp="1587720500307">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="468" y="127" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1586771068306" />
+    <state x="468" y="127" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1587720500307" />
     <state width="1417" height="207" key="GridCell.Tab.0.bottom" timestamp="1586535209442">
       <screen x="0" y="0" width="1474" height="864" />
     </state>

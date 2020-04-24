@@ -2,6 +2,8 @@ import com.hankcs.hanlp.HanLP;
 import com.hankcs.hanlp.collection.AhoCorasick.AhoCorasickDoubleArrayTrie;
 import com.hankcs.hanlp.collection.trie.DoubleArrayTrie;
 import com.hankcs.hanlp.corpus.io.IOUtil;
+import com.hankcs.hanlp.seg.Other.DoubleArrayTrieSegment;
+import com.hankcs.hanlp.seg.Segment;
 import com.hankcs.hanlp.seg.common.Term;
 
 import java.io.IOException;
@@ -81,6 +83,14 @@ public class StopWordFiltering
     public static void main(String[] args) throws IOException {
         DoubleArrayTrie<String> trie = loadStopWordFromFile(HanLP.Config.CoreStopWordDictionaryPath);
         final String text = "停用词的意义相对而言无关紧要吧";
+        HanLP.Config.ShowTermNature = false;
+        Segment segment = new DoubleArrayTrieSegment();
+        List<Term> termList = segment.seg(text);
+        System.out.println("分词结果:" + termList);
+        removeStopWords(termList, trie);
+        System.out.println("分词结果去掉停用词: " + termList);
+        trie = loadStopWordFromWords("的", "相对而言", "吧");
+        System.out.println("不分词去掉停用词: " + replaceStopWords(text, "**", trie));
 
     }
 }
