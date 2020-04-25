@@ -1,6 +1,6 @@
 from docutils.nodes import term
 from jpype import JClass, JString
-
+from pyhanlp import *
 
 def load_from_file(path):
     """
@@ -44,3 +44,4 @@ def replace_stropwords_text(text, replacement, trie):
     if offset < len(text):
         result += text[offset]
     return result
+

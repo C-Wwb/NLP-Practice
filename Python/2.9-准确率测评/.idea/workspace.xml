@@ -27,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="SvnConfiguration">
@@ -43,6 +44,7 @@
       <workItem from="1587219655751" duration="919000" />
       <workItem from="1587363018695" duration="17000" />
       <workItem from="1587393584769" duration="31000" />
+      <workItem from="1587825989918" duration="5000" />
     </task>
     <servers />
   </component>

@@ -27,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunManager" selected="Python.2.8.2.ACDAT">
@@ -94,6 +95,7 @@
       <workItem from="1586790293434" duration="904000" />
       <workItem from="1586875662546" duration="222000" />
       <workItem from="1587136552467" duration="51000" />
+      <workItem from="1587825975571" duration="8000" />
     </task>
     <servers />
   </component>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8095a77a-9586-47e0-b2e7-4485e5fdd7f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Python/2.5-双数组字典树/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/2.5-双数组字典树/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/2.6.5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/2.6.5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.5-双数组字典树/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.5-双数组字典树/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.6.5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.6.5/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +87,7 @@
       <workItem from="1585752419210" duration="52000" />
       <workItem from="1586534866129" duration="14000" />
       <workItem from="1586618897575" duration="20000" />
+      <workItem from="1587825950412" duration="6000" />
     </task>
     <servers />
   </component>

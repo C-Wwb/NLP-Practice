@@ -27,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.4.4-首字散列其余二分的字典树" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunManager" selected="Python.Text">
@@ -117,6 +117,7 @@
       <updated>1585838006704</updated>
       <workItem from="1585838007944" duration="2251000" />
       <workItem from="1586534933179" duration="11000" />
+      <workItem from="1587826013107" duration="9000" />
     </task>
     <servers />
   </component>
