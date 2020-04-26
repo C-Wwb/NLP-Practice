@@ -30,6 +30,58 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.4.3-字典树的增删改查" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
+  <component name="RunManager" selected="Python.conversionBetweenSimplifiedAndTraditionalChinese (1)">
+    <configuration name="conversionBetweenSimplifiedAndTraditionalChinese (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2.10-字典树的其他应用" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conversionBetweenSimplifiedAndTraditionalChinese.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="conversionBetweenSimplifiedAndTraditionalChinese" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2.10-字典树的其他应用" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="Y:\NLP\Hanlp\Python\2.10-字典树的其他应用\conversionBetweenSimplifiedAndTraditionalChinese.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.conversionBetweenSimplifiedAndTraditionalChinese (1)" />
+        <item itemvalue="Python.conversionBetweenSimplifiedAndTraditionalChinese" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,6 +96,7 @@
       <workItem from="1587482449047" duration="208000" />
       <workItem from="1587652440661" duration="461000" />
       <workItem from="1587825046231" duration="1170000" />
+      <workItem from="1587910031233" duration="228000" />
     </task>
     <servers />
   </component>
@@ -55,9 +108,29 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="468" y="133" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1587826010307" />
-    <state x="346" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1587825048050">
+    <state width="1417" height="208" key="GridCell.Tab.0.bottom" timestamp="1587910258910">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="346" y="218" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1587825048050" />
+    <state width="1417" height="208" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1587910258910" />
+    <state width="1417" height="208" key="GridCell.Tab.0.center" timestamp="1587910258910">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1417" height="208" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1587910258910" />
+    <state width="1417" height="208" key="GridCell.Tab.0.left" timestamp="1587910258910">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1417" height="208" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1587910258910" />
+    <state width="1417" height="208" key="GridCell.Tab.0.right" timestamp="1587910258910">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1417" height="208" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1587910258910" />
+    <state x="346" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1587910032740">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="346" y="218" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1587910032740" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/2_10_$conversion_betweenSimplifiedAndTraditionalChinese.coverage" NAME="conversion betweenSimplifiedAndTraditionalChinese Coverage Results" MODIFIED="1587910226295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2_10_$conversionBetweenSimplifiedAndTraditionalChinese__1_.coverage" NAME="conversionBetweenSimplifiedAndTraditionalChinese (1) Coverage Results" MODIFIED="1587910246952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
