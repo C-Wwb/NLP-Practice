@@ -1,6 +1,9 @@
+import com.hankcs.hanlp.HanLP;
 import com.hankcs.hanlp.corpus.dictionary.NatureDictionaryMaker;
 import com.hankcs.hanlp.corpus.document.CorpusLoader;
 import com.hankcs.hanlp.corpus.document.sentence.word.IWord;
+import com.hankcs.hanlp.dictionary.CoreBiGramTableDictionary;
+import com.hankcs.hanlp.dictionary.CoreDictionary;
 
 import java.util.List;
 
@@ -20,6 +23,10 @@ public class LoadCorpus
 //            }
 //            System.out.println();
         }
+        HanLP.Config.CoreDictionaryPath = "Y:/NLP/Hanlp/model/my_cws_model.txt";
+        HanLP.Config.BiGramDictionaryPath = "Y:/NLP/Hanlp/model/my_cws_model.ngram.txt";
+        System.out.println(CoreDictionary.getTermFrequency("商品"));
+        System.out.println(CoreBiGramTableDictionary.getBiFrequency("商品", "和"));
     }
 
     /**
@@ -36,6 +43,6 @@ public class LoadCorpus
                 word.setLabel("n");//赋予每个单词一个虚拟的名词词性
         final NatureDictionaryMaker dictionaryMaker = new NatureDictionaryMaker();
         dictionaryMaker.compute(sentenceList);
-        dictionaryMaker.saveTxtTo("Y:/NLP/Hanlp/model/my_cws_model.txt");
+        dictionaryMaker.saveTxtTo(MY_CWS_MODEL_PATH);
     }
 }
