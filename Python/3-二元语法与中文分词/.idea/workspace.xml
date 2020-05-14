@@ -27,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../随书代码/《自然语言处理入门》随书代码/hanlp-python/pyhanlp/tests/book/ch03/ngram_segment.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -40,6 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589204275589</updated>
       <workItem from="1589204276834" duration="311000" />
+      <workItem from="1589468053970" duration="703000" />
     </task>
     <servers />
   </component>
@@ -47,9 +49,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="468" y="133" key="FileChooserDialogImpl" timestamp="1589468715201">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="468" y="133" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1589468715201" />
     <state x="133" y="0" key="SettingsEditor" timestamp="1589204433086">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="133" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1589204433086" />
+    <state x="346" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1589468054576">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="346" y="218" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1589468054576" />
   </component>
 </project>
