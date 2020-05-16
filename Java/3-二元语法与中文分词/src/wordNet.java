@@ -1,11 +1,13 @@
 import com.hankcs.hanlp.collection.trie.DoubleArrayTrie;
 import com.hankcs.hanlp.dictionary.CoreDictionary;
+import com.hankcs.hanlp.dictionary.other.CharType;
+import com.hankcs.hanlp.seg.NShort.Path.AtomNode;
 import com.hankcs.hanlp.seg.common.Vertex;
 import com.hankcs.hanlp.seg.common.WordNet;
 
 import java.util.LinkedList;
+import java.util.List;
 
-import static com.hankcs.hanlp.seg.Segment.quickAtomSegment;
 
 /**
  * 生成一元词网
@@ -42,5 +44,40 @@ public class wordNet
             }
             else i += vertexes[i].getLast().realWord.length();
         }
+    }
+    protected List<AtomNode> quickAtomSegment(char[] charArray, int start, int end)
+    {
+        List<AtomNode> atomNodeList = new LinkedList<AtomNode>();
+        int offsetAtom = start;
+        int preType = CharType.get(charArray[offsetAtom]);
+        int curType;
+        while (++offsetAtom < end)
+        {
+            curType = CharType.get(charArray[offsetAtom]);
+            if (curType != preType)
+            {
+                //浮点数识别
+                if (preType == CharType.CT_NUM && "，,.·".indexOf(charArray[offsetAtom]) != -1)
+                {
+                    if (offsetAtom + 1 < end)
+                    {
+                        int nextType = CharType.get(charArray[offsetAtom + 1]);
+                        if (nextType == CharType.CT_NUM)
+                        {
+                            continue;
+                        }
+                    }
+                }
+                atomNodeList.add(new AtomNode(
+                        new String(charArray, start, offsetAtom - start), preType));
+                start = offsetAtom;
+            }
+            preType = curType;
+        }
+        if(offsetAtom == end)
+            atomNodeList.add(new AtomNode(
+                    new String(charArray, start, offsetAtom - start), preType));
+
+        return atomNodeList;
     }
 }
