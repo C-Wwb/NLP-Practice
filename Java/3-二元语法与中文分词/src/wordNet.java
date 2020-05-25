@@ -1,4 +1,5 @@
 import com.hankcs.hanlp.collection.trie.DoubleArrayTrie;
+import com.hankcs.hanlp.dictionary.CoreBiGramTableDictionary;
 import com.hankcs.hanlp.dictionary.CoreDictionary;
 import com.hankcs.hanlp.dictionary.other.CharType;
 import com.hankcs.hanlp.seg.NShort.Path.AtomNode;
@@ -7,6 +8,8 @@ import com.hankcs.hanlp.seg.common.WordNet;
 
 import java.util.LinkedList;
 import java.util.List;
+
+import static com.hankcs.hanlp.utility.Predefine.*;
 
 
 /**
@@ -79,5 +82,20 @@ public class wordNet
                     new String(charArray, start, offsetAtom - start), preType));
 
         return atomNodeList;
+    }
+
+    /**
+     *
+     * @param from 前面的词
+     * @param to 后面的词
+     * @return 分数
+     */
+    public static double calculateWeight(Vertex from, Vertex to)
+    {
+        int frequency = from.getAttribute().totalFrequency;
+        int nTwoWordsFreq = CoreBiGramTableDictionary.getBiFrequency(from.wordID, to.wordID);
+        double value = -Math.log(dSmoothingPara * frequency / (MAX_FREQUENCY)
+                + ((1 - dSmoothingPara) * (1 - dTemp) * nTwoWordsFreq / frequency + dTemp));
+        return value;
     }
 }
