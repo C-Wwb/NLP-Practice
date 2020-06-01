@@ -4,13 +4,16 @@ import com.hankcs.hanlp.corpus.document.CorpusLoader;
 import com.hankcs.hanlp.corpus.document.sentence.word.IWord;
 import com.hankcs.hanlp.dictionary.CoreBiGramTableDictionary;
 import com.hankcs.hanlp.dictionary.CoreDictionary;
+import com.hankcs.hanlp.seg.Dijkstra.DijkstraSegment;
+import com.hankcs.hanlp.seg.Segment;
+import com.hankcs.hanlp.seg.Viterbi.ViterbiSegment;
 
 import java.util.List;
 
 public class LoadCorpus
 {
-    public static String MY_CWS_CORPUS_PATH = "Y:/NLP/Hanlp/corpus/my_cws_corpus.txt";
-    public static String MY_CWS_MODEL_PATH = "Y:/NLP/Hanlp/model/my_cws_model.txt";
+    public static String MY_CWS_CORPUS_PATH = "Y:/NLP/Hanlp/corpus/my_cws_corpus";
+    public static String MY_CWS_MODEL_PATH = "Y:/NLP/Hanlp/model/my_cws_model";
     public static void main(String[] args)
     {
         List<List<IWord>> sentenceList = CorpusLoader.convert2SentenceList(MY_CWS_CORPUS_PATH);//语料库地址
@@ -23,8 +26,8 @@ public class LoadCorpus
 //            }
 //            System.out.println();
         }
-        HanLP.Config.CoreDictionaryPath = "Y:/NLP/Hanlp/model/my_cws_model.txt";
-        HanLP.Config.BiGramDictionaryPath = "Y:/NLP/Hanlp/model/my_cws_model.ngram.txt";
+        HanLP.Config.CoreDictionaryPath = MY_CWS_MODEL_PATH + ".txt";
+        HanLP.Config.BiGramDictionaryPath = MY_CWS_MODEL_PATH + ".ngram.txt";
         System.out.println(CoreDictionary.getTermFrequency("商品"));
         System.out.println(CoreBiGramTableDictionary.getBiFrequency("商品", "和"));
     }
@@ -44,5 +47,17 @@ public class LoadCorpus
         final NatureDictionaryMaker dictionaryMaker = new NatureDictionaryMaker();
         dictionaryMaker.compute(sentenceList);
         dictionaryMaker.saveTxtTo(MY_CWS_MODEL_PATH);
+    }
+    public static Segment loadBigram(String modelPath)
+    {
+        HanLP.Config.enableDebug();
+        HanLP.Config.ShowTermNature = false;
+        HanLP.Config.CoreDictionaryPath = modelPath + ".txt";
+        HanLP.Config.BiGramDictionaryPath = modelPath + ".ngram.txt";
+        System.out.println(CoreDictionary.getTermFrequency("商品"));
+        System.out.println(CoreBiGramTableDictionary.getBiFrequency("商品", "和"));
+        Segment segment = new DijkstraSegment();
+        System.out.println(segment.seg("商品和服务"));
+        return new ViterbiSegment().enableAllNamedEntityRecognize(false).enableCustomDictionary(false);
     }
 }
