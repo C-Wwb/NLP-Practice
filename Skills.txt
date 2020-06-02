@@ -21,3 +21,5 @@ File -> Settings ->Project->Project Interpreter
 9）python分号用：代替
      list[]//定义数组
 10）from jpype import JClass #python中java通道
+
+11）from pyhanlp import * //调用pyhanlp包

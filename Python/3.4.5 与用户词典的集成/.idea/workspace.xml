@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fb3bb53-437a-4ae4-add2-5b32acc07710" name="Default Changelist" comment="" />
+    <list default="true" id="24e48974-314d-4fb1-970a-b93a4a9eb429" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1blQc2bk0Sq2ym5dFyRAkw8elJE" />
+  <component name="ProjectId" id="1clTw6Baj1Q8qpNdV9D9AGSUs22" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,23 +27,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.3.1-完全切分" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7fb3bb53-437a-4ae4-add2-5b32acc07710" name="Default Changelist" comment="" />
-      <created>1589204275589</created>
+      <changelist id="24e48974-314d-4fb1-970a-b93a4a9eb429" name="Default Changelist" comment="" />
+      <created>1591102415471</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1589204275589</updated>
-      <workItem from="1589204276834" duration="311000" />
-      <workItem from="1589468053970" duration="703000" />
-      <workItem from="1589719663480" duration="41000" />
-      <workItem from="1591102618599" duration="22000" />
+      <updated>1591102415471</updated>
+      <workItem from="1591102417096" duration="178000" />
+      <workItem from="1591102611622" duration="399000" />
     </task>
     <servers />
   </component>
@@ -51,17 +49,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="468" y="133" key="FileChooserDialogImpl" timestamp="1589719684898">
+    <state x="468" y="133" key="FileChooserDialogImpl" timestamp="1591102982065">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="468" y="133" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1589719684898" />
-    <state x="133" y="0" key="SettingsEditor" timestamp="1589204433086">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="133" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1589204433086" />
-    <state x="346" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1589719664986">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="346" y="218" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1589719664986" />
+    <state x="468" y="133" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1591102982065" />
   </component>
 </project>
